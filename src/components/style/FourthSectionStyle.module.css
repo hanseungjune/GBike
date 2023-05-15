@@ -1,0 +1,118 @@
+.fourth {
+  width: calc(100vw - 20px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 150vh;
+}
+
+.fourth > h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.fourth > p {
+  font-size: 18px;
+  font-weight: normal;
+  width: 60%;
+  margin-bottom: 30px;
+}
+
+.fourth-div {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.fourth-div > div {
+  padding: 15px;
+  width: 427px;
+  height: 240px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  transition: transform 1s ease;
+}
+
+.fourth-div > div:hover {
+  transform: rotateY(360deg) skew(5deg);
+  background-color: #303031;
+}
+
+.fourth-div > div:hover > h3,
+.fourth-div > div:hover > p,
+.fourth-div > div:hover > div > span {
+  color: #ffffff;
+}
+
+.fourth-div > div:nth-of-type(1),
+.fourth-div > div:nth-of-type(2)
+{
+  margin-right: 30px;
+}
+
+.fourth-div > div:nth-of-type(2),
+.fourth-div > div:nth-of-type(3) {
+  height: 216px;
+}
+
+.fourth-div > div > h3 {
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.fourth-div > div > p {
+  text-align: left;
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.fourth-div > div > div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fourth-div > div > div > button {
+  width: 61px;
+  height: 32px;
+  background-color: #71A894;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: normal;
+  border-radius: 40px;
+  border: none;
+}
+
+.fourth-div > div > div > span {
+  color: #303031;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.fourth-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.fourth-btn > button {
+  padding: 15px 24px;
+  background-color: #303031;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.fourth-btn > button:hover {
+  opacity: 0.5;
+}
